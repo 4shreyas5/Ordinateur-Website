@@ -1,7 +1,12 @@
+import React from "react";
+import HomePage from "./Containers/HomePage";
 
 function App() {
 return(
-  <div>
+  <div className="App">
+    <div>
+    <HomePage/>
+    </div>
     
   </div>
 )
