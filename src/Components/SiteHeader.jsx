@@ -6,7 +6,7 @@ function SiteHeader(){
     return(
         <div className="bg-black w-full h-32">
             <div className="flex justify-between">
-         <div className="-mx-7 -mt-1 w-48 h-48">
+         <div className="-mx-4 -mt-1 w-48 h-48">
             <img src={ord} />
         </div>
         <div className="mt-1">
@@ -21,7 +21,7 @@ function SiteHeader(){
             <p>HANSRAJ COLLEGE</p>
             </h3>
             </div>
-            <div className="mt-2 mx-2">          
+            <div className="mt-2 mx-4">          
          <img src={hrc} className="h-28"/>
          </div>
          </div>
