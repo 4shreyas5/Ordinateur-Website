@@ -11,7 +11,9 @@ function Carousel(){
         infinite: true,
         speed: 500,
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+        autoplay: true,
+        // autoplaySpeed: 100
       };
       
       const images = [

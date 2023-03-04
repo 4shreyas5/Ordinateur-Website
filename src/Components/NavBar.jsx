@@ -6,7 +6,7 @@ function NavBar(){
             <div className="flex justify-evenly text-white pt-1">
                 <a href="#" >Home</a>
                 <a href="#" >Events</a>
-                <a href="#" >Alumini</a>
+                <a href="#" >Alumni</a>
                 <a href="#" >For Students</a>
                 <a href="#" >Faculties and Staff</a>
                 <a href="#" >About Us</a>

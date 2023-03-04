@@ -5,6 +5,7 @@ import Carousel from "../Components/Carousel";
 import AboutUs from "../Components/AboutUs";
 import Wings from "../Components/Wings";
 import Sponsors from "../Components/Sponsors";
+import Footer from "../Components/Footer";
 
 function HomePage(){
     return(
@@ -16,6 +17,7 @@ function HomePage(){
             <hr></hr>
             <Wings/>
             <Sponsors/>
+            <Footer/>
         </div>
     )
 }

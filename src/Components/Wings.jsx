@@ -29,33 +29,31 @@ function Wings(){
     ]
 
     return(
-        <div className=" ml-4 text-white text-center">
+        <div className="ml-12 mr-24 text-white text-center">
             <div className="underline underline-offset-4 text-center mt-4 mb-4 text-4xl">
                 <b>Wings</b>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-12">
                 {wings.map((wing) => (
-                    <div>
-                         <Card className="w-96 border-solid border-2 border-amber-300 ">
+                    <div className='group w-96 bg-zinc-900 rounded-md'>
+                         <Card className="w-96 group-hover:border-solid group-hover:border-2 group-hover:rounded-md group-hover:border-sky-500 ">
       <CardHeader
         variant="gradient"
         color="blue"
-        className="grid h-20 place-items-center bg-amber-300 rounded my-2"
+        className="grid h-20 place-items-center group-hover:bg-sky-500 rounded my-2"
       >
-        <Typography variant="h3" color="white" className="text-2xl" >
+        <Typography variant="h3" className="text-2xl group-hover:text-white text-sky-500" >
          <b> {wing.WingName} </b>
         </Typography>
       </CardHeader>
-      <CardBody className="flex flex-col gap-4">
+      <CardBody className="flex flex-col gap-4 mb-4 mx-2">
         {wing.WingDescription}
       </CardBody>
     </Card>
                     </div>
                 ))}
             </div>
-            
-
-        </div>
+          </div>
     )
 
 }
