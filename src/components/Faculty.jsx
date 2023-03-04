@@ -26,7 +26,7 @@ export function Faculty() {
            <div className="grid gap-x-10  md:grid-cols-2 xl:grid-cols-4 px-20">
             {facultyData.map(({img, name, position}) => (
               <FacultyCard
-                key={name}
+                key={name}      
                 img={img}
                 name={name}
                 position={position}

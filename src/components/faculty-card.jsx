@@ -10,7 +10,7 @@ function FacultyCard({img, name, position}) {
         src={img}
         alt={name}
         size="xl" 
-        className="rounded-lg h-64 w-64 mt-6 hover:scale-110 transition duration-300 ease-in-out border-4 border-white" 
+        className="rounded-full box-border p-4  h-64 w-64 mt-6 hover:scale-110 hover:border-sky-700 transition duration-300 ease-in-out border-4 border-yellow-500" 
         />
       </CardHeader>
       <CardBody>

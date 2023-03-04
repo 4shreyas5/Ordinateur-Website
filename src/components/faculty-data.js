@@ -50,7 +50,7 @@ export const facultyData=[
         position:"Assistant Professor B.Tech., M.Tech.,Pursuing Ph.D."
     },
     {
-        img:"/images/items1.jpg",
+        img:"/images/vidhi.jpg",
         name:"Vidhi Khanduja",
         position:"Assistant Professor Ph.D., M.Tech, B.Tech"
     },
