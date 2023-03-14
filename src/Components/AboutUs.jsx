@@ -11,7 +11,7 @@ function AboutUs(){
             <div className="text-white">
                 <h2 className="mt-4 ml-80 text-6xl"><b>About Us</b></h2>
             </div>           
-            <div>
+            <div> 
             <p className=" mx-10 mt-4 text-white">
                 Filled with geeks who are passionate about the world of technology, we are one of the best
 Computer Science Society in Delhi University, proving the legacy of Hansraj College and its
