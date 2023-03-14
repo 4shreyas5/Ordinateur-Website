@@ -1,23 +1,24 @@
 import PropTypes from "prop-types";
-import { Card, Typography, CardHeader, CardBody } from "@material-tailwind/react";
+import { Card, Typography, CardHeader, CardBody, Avatar } from "@material-tailwind/react";
 
-function FacultyCard({img, name, position}) {
+function FacultyCard({img, name, position,profile}) {
   return (
     <div className=" ">
-    <Card color="transparent"  shadow={false} className="">
-      <CardHeader className="">
-        <img
+    <Card color="transparent"  shadow={false} className="grid">
+      {/* <CardHeader className="relative "> */}
+        <Avatar
+        // <img
         src={img}
         alt={name}
         size="xl" 
-        className="rounded-full box-border p-4  h-64 w-64 mt-6 hover:scale-110 hover:border-sky-700 transition duration-300 ease-in-out border-4 border-yellow-500" 
+        className="h-48 w-48 p-2 rounded-full mt-6 border-4 border-zinc-900 shadow shadow-2xl hover:shadow-gray-800 hover:scale-110 transition duration-300 ease-in-out" 
         />
-      </CardHeader>
+      {/* </CardHeader> */}
       <CardBody>
-      <Typography  color="black" className="text-center font-bold cursor-pointer text-lg mt-4 text-white">
+      <a href={profile} target={"_blank"} color="black" className="font-bold cursor-pointer text-lg mt-4 ">
         {name}
-      </Typography>
-      <Typography color="black" className="text-center text-sm text-white">
+      </a>
+      <Typography variant="h5"  color="black" className="text-sm">
         {position}
       </Typography>
       </CardBody>
