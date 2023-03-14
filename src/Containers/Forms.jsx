@@ -1,5 +1,5 @@
 import React from 'react'
-import FormHeader from '../Components/FormHeader.jsx';
+import FormHeader from '../components/FormHeader.jsx';
 
 function Forms(){
     return(

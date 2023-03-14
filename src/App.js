@@ -1,13 +1,15 @@
 import React from "react";
-import HomePage from "./Containers/HomePage";
-import Forms from "./Containers/Forms"
+import HomePage from "./containers/HomePage";
+import Forms from "./containers/Forms"
+import SignUp from "./containers/SignUp";
 
 function App() {
 return(
   <div className="App">
     <div>
-    <HomePage/>
+    {/* <HomePage/> */}
     {/* <Forms/> */}
+    <SignUp/>
     </div>
     
   </div>
