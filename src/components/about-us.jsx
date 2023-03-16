@@ -1,9 +1,13 @@
 import React from 'react'
+import NavBar from './NavBar'
+import SiteHeader from './SiteHeader'
 
 export function AboutUs(){
 
     return(
       <div className=''>
+        <SiteHeader/>
+        <NavBar/>
         <div className='flex justify-between'>
             <h3 className='font-bold text-2xl m-4 italic'>About us</h3>
         <img

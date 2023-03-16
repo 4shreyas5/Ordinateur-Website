@@ -1,5 +1,5 @@
 import React from 'react'
-import ord from "../assets/Images/ordinateur_logo.png"
+import ord from "../Assets/Images/ordinateur_logo.png"
 import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 
 function Footer(){

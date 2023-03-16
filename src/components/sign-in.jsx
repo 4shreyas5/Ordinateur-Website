@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import {
     Card,
     CardHeader,
@@ -10,6 +10,7 @@ import {
     Button,
     Typography,
   } from "@material-tailwind/react";
+import NavBar from './NavBar';
 
 export function SignIn(){
     const [email, setEmail] = useState("");
@@ -19,12 +20,12 @@ export function SignIn(){
 
     return(
         <>
+        <NavBar/>
          <img
         src="/images/login-bg3.jpg"
-        className="absolute inset-0 z-0 h-full w-full object-cover"
+        className="absolute z-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 z-0 h-full w-full bg-black/75" />
-
+        <div className="absolute  z-0 h-full w-full bg-black/75" />
         <div>
             <Card className='absolute mt-8 top-2/4 left-2/4 w-full max-w-[24rem] -translate-y-2/4 -translate-x-2/4 bg-white rounded-lg shadow shadow-2xl'>
                 <CardHeader 

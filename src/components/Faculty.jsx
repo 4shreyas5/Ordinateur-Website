@@ -9,10 +9,14 @@ import {
   } from "@material-tailwind/react";
 import facultyData from './faculty-data';
 import FacultyCard from './faculty-card';
+import NavBar from './NavBar'; 
+import SiteHeader from './SiteHeader';
 
 export function Faculty() {
   return (
     <div className=''>
+      <SiteHeader/>
+      <NavBar/>
       <img
       src="https://www.hansrajcollege.ac.in/files/department/full/DEPT-computer-science.jpg"
       className=''

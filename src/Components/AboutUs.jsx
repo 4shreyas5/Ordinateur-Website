@@ -1,5 +1,5 @@
 import React from 'react'
-import ord from "../assets/Images/ordinateur_logo.png"
+import ord from "../Assets/Images/ordinateur_logo.png"
 
 function AboutUs(){
     return(
