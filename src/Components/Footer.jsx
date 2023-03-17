@@ -1,6 +1,7 @@
 import React from 'react'
 import ord from "../Assets/Images/ordinateur_logo.png"
 import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
+import {Link} from 'react-router-dom'
 
 function Footer(){
     return(
@@ -31,12 +32,12 @@ function Footer(){
         <div>
         <div className="mt-6 -ml-40 text-center">
         <div className=' flex flex-col'>
-                <a href="#" className='my-3' >About Us</a>
-                <a href="#" className='my-3' >Home</a>
-                <a href="#" className='my-3' >Events</a>
-                <a href="#" className='my-3' >Alumni</a>
-                <a href="#" className='my-3' >For Students</a>
-                <a href="#" className='my-3' >Faculties and Staff</a>
+                <Link to='/aboutus' className='my-3' >About Us</Link>
+                <Link to='/home' className='my-3' >Home</Link>
+                <Link to='/events' className='my-3' >Events</Link>
+                <Link to='/alumni' className='my-3' >Alumni</Link>
+                <Link to='/for_students' className='my-3' >For Students</Link>
+                <Link to='/Faculty' className='my-3' >Faculty and Staff</Link>
         </div>
         </div>
         </div>

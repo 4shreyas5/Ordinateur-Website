@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
     Card,
     CardHeader,
@@ -25,7 +25,7 @@ export function SignIn(){
         src="/images/login-bg3.jpg"
         className="absolute z-0 h-full w-full object-cover"
         />
-        <div className="absolute  z-0 h-full w-full bg-black/75" />
+        <div className="absolute z-0 h-full w-full bg-black/75" />
         <div>
             <Card className='absolute mt-8 top-2/4 left-2/4 w-full max-w-[24rem] -translate-y-2/4 -translate-x-2/4 bg-white rounded-lg shadow shadow-2xl'>
                 <CardHeader 
@@ -48,28 +48,28 @@ export function SignIn(){
                   placeholder='Password' 
                   type="password" required
                   onChange={(e) => setPassword(e.target.value)}
-                  />
+                   />
                   <div className="text-gray-700 px-2">
                      <Checkbox label="Remember Me"/>
                   </div>
                 </CardBody>
                 
                 <CardFooter className='text-center mb-4 mt-4'>
-                <Button variant="contained" className="w-80 h-10 rounded text-sm">
+                <Button className="w-80 h-10 rounded text-sm">
                     Sign In
                 </Button>
                 <Typography variant="small" className="mt-6 flex justify-center">
                     Don't have an account?
-                    {/* <Link to="/sign-up"> */}
+                    <Link to='/signup'>
                     <Typography
                        as="span"
                        variant="small"
                        color="blue"
-                       className="ml-1 font-bold text-blue-500"
+                       className="ml-1 font-bold text-blue-500 link-btn"
                     >
-                       Sign up
+                       SignUp
                     </Typography>
-                    {/* </Link> */}
+                    </Link>
                 </Typography>
                 </CardFooter>
             </Card>

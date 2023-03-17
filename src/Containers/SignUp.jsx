@@ -8,14 +8,15 @@ import {
     Checkbox,
     Button,
     Typography,
-  } from "@material-tailwind/react";
+} from "@material-tailwind/react";
+import { Link } from "react-router-dom";
 import NavBar from '../Components/NavBar';
 
 function SignUp(){
     return(
         <div>
           <NavBar/>
-         {/* <img
+         {/* <img 
         src={require('assets/css/img/background-2.jpg')}
         className="absolute inset-0 z-0 h-full w-full object-cover"
       /> */}
@@ -65,16 +66,16 @@ function SignUp(){
             </Button>
             <Typography variant="small" className="mt-6 flex justify-center">
               Already have an account?
-
+                <Link to='/signin'>
                 <Typography
                   as="span"
                   variant="small"
                   color="blue"
                   className="ml-1 font-bold"
                 >
-                  Sign in
+                  SignIn
                 </Typography>
-
+                </Link>
             </Typography>
           </CardFooter>
         </Card>
