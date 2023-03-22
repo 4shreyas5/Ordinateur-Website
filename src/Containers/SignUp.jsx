@@ -61,7 +61,7 @@ function SignUp(){
             </div>
           </CardBody>
           <CardFooter className="text text-center mb-4">
-            <Button variant="contained" className="w-80 h-10 rounded mt-4 text-sm" >
+            <Button className="w-80 h-10 rounded mt-4 text-sm" >
               Sign Up
             </Button>
             <Typography variant="small" className="mt-6 flex justify-center">
@@ -73,7 +73,7 @@ function SignUp(){
                   color="blue"
                   className="ml-1 font-bold"
                 >
-                  SignIn
+                  Sign In
                 </Typography>
                 </Link>
             </Typography>

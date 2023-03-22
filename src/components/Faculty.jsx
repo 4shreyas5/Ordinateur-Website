@@ -11,23 +11,25 @@ import facultyData from './faculty-data';
 import FacultyCard from './faculty-card';
 import NavBar from './NavBar'; 
 import SiteHeader from './SiteHeader';
+import Footer from './Footer';
 
 export function Faculty() {
   return (
-    <div className=''>
+    <div className='bg-black '>
       <SiteHeader/>
       <NavBar/>
-      <img
+      <hr></hr>
+      {/* <img
       src="https://www.hansrajcollege.ac.in/files/department/full/DEPT-computer-science.jpg"
       className=''
-      />
+      /> */}
       {/* <img
         src="/images/background.jpg"
-        className="absolute inset-0 z-0 h-full w-full "
-      />    */}
-      {/* <div className='absolute inset-0 z-0 h-full w-full bg-black/50'/> */}
+        className="absolute z-0 h-full w-full "
+      />   
+      <div className='absolute  z-0 h-full w-full bg-black/50'/> */}
       <section className=''>
-      <h3 className="mb-4 mt-4 text-5xl text-center italic font-bold">FACULTY</h3>
+      <h3 className="mb-4 mt-4 text-3xl text-center font-bold text-white">FACULTY</h3>
            <div className="grid gap-x-10 md:grid-cols-2 xl:grid-cols-4 px-20 ">
             {facultyData.map(({img, name, position,profile}) => (
               <FacultyCard
@@ -40,7 +42,7 @@ export function Faculty() {
             ))}
             </div>
        </section>
-       <footer className='bg-black text-white text-center mt-8 p-4'></footer>
+       <Footer/>
     </div>
   )
 }

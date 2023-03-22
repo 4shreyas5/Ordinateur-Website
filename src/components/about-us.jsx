@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import SiteHeader from './SiteHeader'
+import Footer from './Footer'
 
 export function AboutUs(){
 
@@ -31,7 +32,7 @@ export function AboutUs(){
       <section>
         <h3 className='font-bold text-2xl m-4 italic'>Core Team</h3>
       </section>
-
+      <Footer/>
       </div>
     )
 }

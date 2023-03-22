@@ -5,7 +5,7 @@ import SiteHeader from '../Components/SiteHeader.jsx';
 
 function Forms(){
     return(
-        <div>
+        <div className=''>
          <SiteHeader/>
          <NavBar/>
          <FormHeader/>

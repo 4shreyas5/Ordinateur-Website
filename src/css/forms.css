@@ -1,0 +1,16 @@
+label{
+    display: grid;
+    margin-bottom: 12px;
+    font-size: large;
+}
+input{
+    margin-top: 12px;
+    height: 40px;
+    padding-left: 10px;
+    background-color: rgba(179, 174, 174, 0.349);
+    border-radius: 6px;
+}
+input:hover,textarea:hover{
+    border: 1px solid;
+    background-color: white;
+}

@@ -12,10 +12,10 @@ function FacultyCard({img, name, position,profile}) {
         className="h-48 w-48 p-2 rounded-full mt-6 border-4 border-zinc-900 shadow shadow-2xl hover:shadow-gray-800 hover:scale-110 transition duration-300 ease-in-out" 
         />
       <CardBody>
-      <a href={profile} target={"_blank"} color="black" className="font-bold cursor-pointer text-lg mt-4 ">
+      <a href={profile} target={"_blank"} color="white" className="font-bold cursor-pointer text-lg mt-4 ">
         {name}
       </a>
-      <Typography variant="h5"  color="black" className="text-sm">
+      <Typography variant="h5"  color="white" className="text-sm">
         {position}
       </Typography>
       </CardBody>
