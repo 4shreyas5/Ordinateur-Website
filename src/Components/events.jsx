@@ -7,7 +7,7 @@ function Events(){
         <>
         <SiteHeader/>
         <NavBar/>
-        <h2>Events</h2>
+        <h2 className='text-center text-3xl font-bold mt-2'>Events</h2>
         </>
     )
 }

@@ -7,7 +7,7 @@ function ForStudents(){
         <>
         <SiteHeader/>
         <NavBar/>
-        <h2>For Students</h2>
+        <h2 className='text-center text-3xl font-bold mt-2'>For Students</h2>
         </>
     )
 }

@@ -1,80 +1,65 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from "react-router-dom";
-import {
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    Input,
-    Checkbox,
-    Button,
-    Typography,
-  } from "@material-tailwind/react";
+import { Link, useNavigate } from "react-router-dom"
 import NavBar from './NavBar';
+import SiteHeader from './SiteHeader';
 
 export function SignIn(){
-    const [email, setEmail] = useState("");
+    const [roll, setRoll] = useState("");
     const [password, setPassword] = useState("");
+    const navigate =useNavigate();
 
+    const handleSubmit =(e) =>{
+        e.preventDefault();  
+    }
 
+    async function login(){
+        console.warn(roll,password)
+        let item={roll,password};
+        let result = fetch("http://127.0.0.1:8000/accounts/login/",{
+            method:'POST',
+            headers:{
+                "Content-Type":"application/json",
+                "Accept":"application/json"
+            },
+            body:JSON.stringify(item)
+        });
+        result = await result.json();
+        console.log("Result", result)
+        localStorage.setItem("user-info", JSON.stringify(result))
+        navigate("/sign-in")
+    }
+
+    useEffect(()=>{
+        if(localStorage.getItem('user-info')){
+           navigate("/signin") 
+        }
+    },[])
 
     return(
         <>
+        <SiteHeader/>
         <NavBar/>
-         <img
-        src="/images/login-bg3.jpg"
-        className="absolute z-0 h-full w-full object-cover"
-        />
-        <div className="absolute z-0 h-full w-full bg-black/75" />
-        <div>
-            <Card className='absolute mt-8 top-2/4 left-2/4 w-full max-w-[24rem] -translate-y-2/4 -translate-x-2/4 bg-white rounded-lg shadow shadow-2xl'>
-                <div>
-                <CardHeader 
-                   className="mb-4 w-80 mx-8 bottom-6 grid h-28 place-items-center rounded-lg bg-gradient-to-r from-sky-400 to-blue-600"
-                >
-                    <Typography className='text-3xl' color="white">
-                       <b>Sign In</b>
-                    </Typography>
-                </CardHeader>
+        <div className='flex justify-between box-border border-4 m-8 rounded-lg '>
+           <section className='p-40 ml-14 w-full'>
+             <h3 className='text-3xl font-bold'>Sign In</h3>
+              <form className='grid ' onSubmit={handleSubmit}>
+              <label>University Roll Number:
+               <input type='number' className='' placeholder='University Roll Number' onChange={(e) => setRoll(e.target.value)}/>
+               </label>
+               <label>Password:
+                <input type='password' className='' placeholder='Password' onChange={(e) => setPassword(e.target.value)} />
+               </label>
+               <button onClick={login} className='text-center p-2 px-4 w-32 h-12 bg-sky-600 rounded text-lg hover:bg-sky-900'>Sign In</button>
+               <div className='flex mt-2'>
+                <p >Don't have an account?</p>
+                <Link to='/signup' className=' ml-1 text-cyan-700 font-bold' type='submit'>Sign Up</Link>
                 </div>
-                
-                <CardBody className="mx-8 flex flex-col gap-8">
-                  <Input 
-                  className='rounded-md h-10 px-2 bg-gray-200 shadow-md border focus:outline-none focus:shadow-outline focus:bg-white' 
-                  placeholder='Email' 
-                  type="email" required
-                  onChange={(e) => setEmail(e.target.value)}
-                   />
-                  <Input 
-                  className="rounded-md h-10 px-2 bg-gray-200 shadow-md border focus:outline-none focus:shadow-outline focus:bg-white" 
-                  placeholder='Password' 
-                  type="password" required
-                  onChange={(e) => setPassword(e.target.value)}
-                   />
-                  <div className="text-gray-700 px-2">
-                     <Checkbox label="Remember Me"/>
-                  </div>
-                </CardBody>
-                
-                <CardFooter className='text-center mb-4 mt-4'>
-                <Button className="w-80 h-10 rounded text-sm">
-                    Sign In
-                </Button>
-                <Typography variant="small" className="mt-6 flex justify-center">
-                    Don't have an account?
-                    <Link to='/signup' >
-                    <Typography
-                       as="span"
-                       variant="small"
-                       color="blue"
-                       className="ml-1 font-bold text-blue-500 link-btn"
-                    >
-                       Sign Up
-                    </Typography>
-                    </Link>
-                </Typography>
-                </CardFooter>
-            </Card>
+              </form>
+        </section>
+           <img
+            src="/images/login_img.jpg"
+            className='h-auto max-w-lg mr-40'
+            />
         </div>
         </>
 

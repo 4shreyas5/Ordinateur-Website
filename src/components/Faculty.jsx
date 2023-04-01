@@ -19,18 +19,9 @@ export function Faculty() {
       <SiteHeader/>
       <NavBar/>
       <hr></hr>
-      {/* <img
-      src="https://www.hansrajcollege.ac.in/files/department/full/DEPT-computer-science.jpg"
-      className=''
-      /> */}
-      {/* <img
-        src="/images/background.jpg"
-        className="absolute z-0 h-full w-full "
-      />   
-      <div className='absolute  z-0 h-full w-full bg-black/50'/> */}
       <section className=''>
       <h3 className="mb-4 mt-4 text-3xl text-center font-bold text-white">FACULTY</h3>
-           <div className="grid gap-x-10 md:grid-cols-2 xl:grid-cols-4 px-20 ">
+           <div className="grid gap-x-10 md:grid-cols-2 xl:grid-cols-4 px-20 mb-6">
             {facultyData.map(({img, name, position,profile}) => (
               <FacultyCard
                 key={name}      

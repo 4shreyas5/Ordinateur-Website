@@ -24,9 +24,7 @@ function Alumni(){
         <>
         <SiteHeader/>
         <NavBar/>
-        <h2 className='text-center text-3xl italic font-bold mt-2'>Alumni</h2>
-        {/* alumni forms, have to create a component of this, figure out how */}
-
+        <h2 className='text-center text-3xl font-bold mt-2'>Alumni</h2>
         <div className=''>
         </div>
         </>
