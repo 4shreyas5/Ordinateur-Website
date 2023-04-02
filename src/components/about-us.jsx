@@ -14,7 +14,7 @@ export function AboutUs(){
         <NavBar/>
       <section className=''>
         <h3 className='font-bold text-2xl m-4 '>About The Society</h3>
-        <p className='m-4'>Filled with geeks who are passionate about the world of technology, We are one of the best Computer
+        <p className='m-4 '>Filled with geeks who are passionate about the world of technology, We are one of the best Computer
             Science Society in Delhi University, proving the legacy of the CS Department of Hansraj College. 
             The society members share interest in almost all subfields of Computer Science. We are made of people 
             ranging from Web Developers to Competitive Programmers, from Ethical Hackers to Data Scientists and from 
@@ -24,7 +24,7 @@ export function AboutUs(){
             Following the hierarchy of Computer Techies, the students along with teachers provide a great community support
             not only in the field of studies but in every aspect of life. This is a place of most helpful and community 
             friendly human beings.</p>
-      </section>
+      </section>  
       <section className=''>
         <h3 className='font-bold text-2xl m-4 '>Core Team</h3>
         <div className='flex justify-between '>
@@ -52,7 +52,7 @@ export function AboutUs(){
       </section>
 
       <section>
-        <h3 className='font-bold text-2xl m-4'>Wings</h3>
+        <h3 className='font-bold text-2xl m-4 '>Wings</h3>
         <div className='flex m-6 gap-6'>
           <Link to='/home' className=' list-disc m-4 '><b>Technical Wing</b>
           <img src="/images/technical.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
