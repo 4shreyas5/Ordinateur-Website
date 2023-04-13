@@ -9,12 +9,15 @@ function Events(){
         <SiteHeader/>
         <NavBar/>
         <h2 className='text-center text-3xl font-bold mt-2'>Events</h2>
-        <div>
-        <select className='w-2/3'>
+        <div className='p-6'>
+        <select className='w-40 '>
                     <option value="none" selected disabled hidden>Select Year</option>
-                    <option value="1st year">1st Year</option>
-                    <option value="2nd year">2nd Year</option>
-                    <option value="3rd year">3rd Year</option>
+                    <option value="All">All</option>
+                    <option value="2022">2022</option>
+                    <option value="2021">2021</option>
+                    <option value="2020">2020</option>
+                    <option value="2019">2019</option>
+                    <option value="2018">2018</option>
                 </select>
         </div>
         </>

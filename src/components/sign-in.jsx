@@ -10,23 +10,23 @@ export function SignIn(){
 
     const handleSubmit =(e) =>{
         e.preventDefault();  
-    }
-
+    } 
+ 
     async function login(){
-        console.warn(roll,password)
-        let item={roll,password};
-        let result = fetch("http://127.0.0.1:8000/accounts/login/",{
-            method:'POST',
-            headers:{
-                "Content-Type":"application/json",
-                "Accept":"application/json"
-            },
-            body:JSON.stringify(item)
-        });
-        result = await result.json();
-        console.log("Result", result)
-        localStorage.setItem("user-info", JSON.stringify(result))
-        navigate("/sign-in")
+        // console.warn(roll,password)
+        // let item={roll,password};
+        // let result = fetch("http://127.0.0.1:8000/accounts/login/",{
+        //     method:'POST',
+        //     headers:{
+        //         "Content-Type":"application/json",
+        //         "Accept":"application/json"
+        //     },
+        //     body:JSON.stringify(item)
+        // });
+        // result = await result.json();
+        // console.log("Result", result)
+        // localStorage.setItem("user-info", JSON.stringify(result))
+        // navigate("/signin")
     }
 
     useEffect(()=>{

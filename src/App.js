@@ -32,16 +32,6 @@ return(
   
   </Routes>
   </BrowserRouter>
-
-<div>
-   {/* <HomePage/> */}
-    {/* <Forms/> */}
-    {/* <SignUp/> */}
-    {/* <Faculty/> */}
-      {/* <AboutUs/> */}
-      {/* <SignIn/> */}
-    </div>
-    
   </div>
 )
 

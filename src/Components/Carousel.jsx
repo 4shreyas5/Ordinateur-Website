@@ -2,9 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import hrc1 from "../Assets/carousel_images/hrc1.jpg"
-// import hrc2 from "../Assets/carousel_images/hrc2.jpeg"
-// import hrc3 from "../Assets/carousel_images/hrc3.avif"
+
 function Carousel(){
     const settings = {
         dots: true,
@@ -31,16 +29,6 @@ function Carousel(){
       <img src={image.src} alt="carousel" className="block w-full"/>
     </div>
   ))}
-  {/* {<>
-    <div>
-        <img src={hrc1} />
-    </div>
-    <div>
-        <img src={hrc2} />
-    </div>
-    </>
-
-  } */}
 </Slider>
 
         </div>
