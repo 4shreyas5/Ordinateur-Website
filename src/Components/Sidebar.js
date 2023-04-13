@@ -7,7 +7,7 @@ function  Sidebar(){
       {years.map(year =>(
         <div className='py-2'> 
         <ui>
-          <button class="font-bold text-xl rounded-lg h-14 w-80 bg-blue-500 transition ease-in-out delay-150 hover: bg-blue-900 hover:scale-110 active: bg-blue-700 focus:outline-none focus:ring focus:ring-violet-300">{year}</button>
+          <button class="font-bold text-xl rounded-lg h-14 w-80 bg-gradient-to-r from-green-300 via-green-400 to-green-300 transition ease-in-out delay-150 hover: bg-green-400 hover:scale-110 active: bg-green-400 focus:outline-none focus:ring focus:ring-green-800">{year}</button>
         <br/>
         </ui>
         </div>

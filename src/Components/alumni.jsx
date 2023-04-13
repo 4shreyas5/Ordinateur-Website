@@ -4,16 +4,17 @@ import SiteHeader from './SiteHeader'
 import Image from './Image';
 import Alumni2 from './Alumni2';
 import Sidebar from './Sidebar';
+import Sp_alumni from './Sp_alumni';
 
 function Alumni(){
     return(
         <>
         <SiteHeader/>
         <NavBar/>
-        <h2>Alumni</h2>
-        <div className=' bg-yellow-300'>
+        <div className=' bg-orange-100'>
     
     <Image/>
+    <Sp_alumni/>
     <div className='flex'>
     <Sidebar/>
     <Alumni2 />
