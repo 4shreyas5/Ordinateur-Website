@@ -1,19 +1,40 @@
 import React, {useState, useEffect} from 'react';
 import { Link, useNavigate } from "react-router-dom";
 import NavBar from '../Components/NavBar';
-import SiteHeader from '../Components/SiteHeader';
+import SiteHeader from '../Components/home/SiteHeader';
  
 function SignUp(){
-    const [roll, setRoll] = useState("");
+    const [roll_no, setRoll_no] = useState("");
     const [first_name, setFirst_name] = useState("");
     const [last_name, setLast_name] = useState("");
-    const [email, setEmail] = useState("");
+    const [email, setEmail] = useState("");  
+    const[gender, setGender] = useState('');
     const [password, setPassword] = useState("");
     const navigate =useNavigate();
 
     const handleSubmit =(e) =>{
         e.preventDefault();  
     } 
+
+    async function register(){
+        let data={roll_no, first_name, last_name, email, gender, password};
+        console.warn("Register-data", data);
+        let result = await fetch("http://127.0.0.1:8000/ordinateur/register/",{
+              method:'POST',
+              headers:{
+                  "Content-Type":"application/json",
+                  "Accept":"application/json"
+              },
+              body:JSON.stringify(data)
+          });
+          
+          result = await result.json();
+          console.log("Result", result)
+          localStorage.setItem("register-data", JSON.stringify(result))
+          navigate("/signup")
+          alert('Registered Successfully');
+      }
+
     return(
         <>
         <SiteHeader/>
@@ -23,7 +44,7 @@ function SignUp(){
              <h3 className='text-3xl font-bold'>Sign Up</h3>
               <form className='grid ' onSubmit={handleSubmit}>
               <label>University Roll Number:
-               <input type='number' className='' placeholder='University Roll Number' value={roll} onChange={(e) => setRoll(e.target.value)}/>
+               <input type='number' className='' placeholder='University Roll Number' value={roll_no} onChange={(e) => setRoll_no(e.target.value)}/>
                </label>
                <div className='flex gap-4'>
                <label className='label'>First Name:
@@ -36,29 +57,21 @@ function SignUp(){
                <label className='label'>Email:
                <input type='email' className='' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}/>
                </label>
-               <div className='flex gap-8'>  
+               {/* <div className='flex gap-8'>   */}
                <label>Gender :
-               <select className='' placeholder='select Gender'>
+               <select className='' placeholder='select Gender' value={gender} onChange={(e) => setGender(e.target.value)}>
                     <option value="none">Select Gender</option>
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                 </select>
                 </label>
-                <label> Alumni Or Student
-                <select className='' placeholder='select Option'>
-                    <option value="none">Select Option</option>
-                    <option value="Alumni">Alumni</option>
-                    <option value="Student">Student</option>
-                </select>
-                </label>
-                </div>
                <label>Password:
                 <input type='password' className='' placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
                </label>
-               <button className='text-center p-2 px-4 w-32 h-12 bg-sky-600 rounded text-lg hover:bg-sky-900'>Sign Up</button>
+               <button onClick={register} className='text-center p-2 px-4 w-32 h-12 bg-sky-600 rounded text-lg hover:bg-sky-900'>Sign Up</button>
                <div className='flex mt-2'>
                 <p >Already have an account?</p>
-                <Link to='/signin' className=' ml-1 text-cyan-700 font-bold' type='submit'>Sign In</Link>
+                <Link to='/signin' className=' ml-1 text-cyan-700 font-bold'>Sign In</Link>
                 </div>
               </form>
         </section>

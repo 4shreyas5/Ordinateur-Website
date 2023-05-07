@@ -1,20 +1,21 @@
 import React from "react";
 import HomePage from "./Containers/HomePage";
-import Events from "./Components/events";
-import Alumni from "./Components/alumni";
+import Events from "./Containers/events";
+import Alumni from "./Containers/alumni";
 import Forms from "./Containers/Forms";
-import Faculty from './Components/Faculty';
-import AboutUs from './Components/about-us';
-import ForStudents from "./Components/for_students";
+import Faculty from './Containers/Faculty';
+import AboutUs from './Containers/about-us';
+import ForStudents from "./Containers/for_students";
 import SignUp from "./Containers/SignUp";
-import SignIn from './Components/sign-in';
-
+import SignIn from './Containers/sign-in';
+import AlumniForm from "./Components/forms/alumni_form";
+import EventForm from "./Components/forms/event_form";
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
-function App() {
-return(
+function App() {  
+return( 
 
   <div className="App">
   <BrowserRouter>
@@ -29,7 +30,9 @@ return(
   <Route path='/for_students' element = {<ForStudents/>}></Route> 
   <Route path='/signin' element = {<SignIn/>}></Route> 
   <Route path='/signup' element = {<SignUp/>}></Route> 
-  
+  <Route path='/alumni_form' element = {<AlumniForm/>}></Route> 
+  <Route path='/forms' element = {<EventForm/>}></Route> 
+
   </Routes>
   </BrowserRouter>
   </div>

@@ -1,11 +1,11 @@
 import React from "react";
-import SiteHeader from "../Components/SiteHeader";
+import SiteHeader from "../Components/home/SiteHeader";
 import NavBar from "../Components/NavBar";
-import Carousel from "../Components/Carousel";
-import AboutUs from "../Components/AboutUs";
-import Wings from "../Components/Wings";
-import Sponsors from "../Components/Sponsors";
-import Footer from "../Components/Footer";
+import Carousel from "../Components/home/Carousel";
+import AboutUs from "../Components/home/AboutUs";
+import Wings from "../Components/home/Wings";
+import Sponsors from "../Components/home/Sponsors";
+import Footer from "../Components/home/Footer";
 
 function HomePage(){
     return(
