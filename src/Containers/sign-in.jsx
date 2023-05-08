@@ -4,8 +4,8 @@ import NavBar from '../Components/NavBar';
 import SiteHeader from '../Components/home/SiteHeader';
 
 export function SignIn(){
-    const [email, setEmail] = useState("");
-    const [password, setPassword] = useState("");
+    const [first_name, setFirst_Name] = useState("");
+    const [roll_no, setRoll_no] = useState("");
     const navigate =useNavigate();
 
     const handleSubmit =(e) =>{
@@ -13,9 +13,9 @@ export function SignIn(){
     } 
  
     async function login(){ 
-        let item={email,password};
+        let item={first_name, roll_no};
         console.warn("login-data",item)
-        let result = fetch("http://127.0.0.1:8000/ordinateur/login/",{
+        let result = await fetch("http://127.0.0.1:8000/ordinateur/login/",{
             method:'POST',
             headers:{
                 "Content-Type":"application/json",
@@ -38,11 +38,11 @@ export function SignIn(){
            <section className='p-40 ml-14 w-full'>
              <h3 className='text-3xl font-bold'>Sign In</h3>
               <form className='grid ' onSubmit={handleSubmit}>
-               <label>Email:
-                <input type='email' className='' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
+               <label>First Name:
+                <input type='text' className='' placeholder='First Name' value={first_name} onChange={(e) => setFirst_Name(e.target.value)} />
                </label>
-               <label>Password:
-                <input type='password' className='' placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
+               <label>University Roll No.:
+                <input type='number' className='' placeholder='University Roll No.' value={roll_no} onChange={(e) => setRoll_no(e.target.value)} />
                </label>
                <button onClick={login} className='text-center p-2 px-4 w-32 h-12 bg-sky-600 rounded text-lg hover:bg-sky-900'>Sign In</button>
                <div className='flex mt-2'>

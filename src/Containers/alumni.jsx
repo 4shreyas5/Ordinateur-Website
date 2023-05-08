@@ -17,7 +17,7 @@ function Alumni(){
     <Image/>
     <Sp_alumni/>
     <div className='flex'>
-    <Sidebar/>
+    {/* <Sidebar/> */}
     <Alumni2 />
     
     </div>

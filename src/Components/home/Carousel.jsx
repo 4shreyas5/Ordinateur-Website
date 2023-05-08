@@ -15,10 +15,12 @@ function Carousel(){
       };
       
       const images = [
-        { src: "https://www.hansrajcollege.ac.in/assets/front/images/campus.jpg" },
-        { src: "https://www.hansrajcollege.ac.in/assets/front/images/banner-img7.jpg" },
-        { src: "https://www.hansrajcollege.ac.in/assets/front/images/campus.jpg" },
-        { src: "https://www.hansrajcollege.ac.in/assets/front/images/banner-img7.jpg"}
+        { src: "/images/c1.jpg" },
+        { src: "/images/c2.jpg" },
+        { src: "/images/c3.jpg" },
+        
+        { src: "/images/c5.jpg"},
+        { src: "/images/c6.jpg"}
       ];
       
     return(

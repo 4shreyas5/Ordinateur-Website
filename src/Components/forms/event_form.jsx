@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import './forms.css'
 import { useNavigate } from "react-router-dom"
 
-function EventForm(){  
+function EventForm(){    
     const[name, setName] = useState('');
     const[year, setYear] = useState('');
     const[college_roll, setCollege_roll] = useState('');

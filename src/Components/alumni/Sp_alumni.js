@@ -23,7 +23,7 @@ function Sp_alumni() {
           Anshula Sachdeva
           </Typography>
           <Typography>
-            Placed
+            Lead Software Developer at BNY Mellon
           </Typography>
         </CardBody>
       </Card>
@@ -42,7 +42,7 @@ function Sp_alumni() {
             Priyanshi Tyagi
           </Typography>
           <Typography>
-          Placed
+          D. E. Shaw India Private Limited
           </Typography>
         </CardBody>
       </Card>
@@ -61,7 +61,7 @@ function Sp_alumni() {
             Shruti Katyal
           </Typography>
           <Typography>
-          Placed 
+          Software Development Engineer at Amazon
           
           </Typography>
         </CardBody>

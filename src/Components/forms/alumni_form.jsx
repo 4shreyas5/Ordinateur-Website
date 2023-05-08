@@ -15,7 +15,6 @@ function AlumniForm(){
     const[image, setImage] = useState('');  
     const[status, setStatus] = useState('');  
     const[gender, setGender] = useState('');  
-    const[date_of_joining, setDate] = useState('');   
     const[date_of_birth, setDate_of_birth] = useState(''); 
     const[firm, setFirm] = useState('');  
     const navigate = useNavigate(); 
@@ -25,7 +24,7 @@ function AlumniForm(){
     }; 
   
     async function submit(){
-      let data={roll_no, first_name, last_name, email, phone_number, date_of_joining,  image, status, gender, date_of_birth, firm, year_of_graduation};
+      let data={roll_no, first_name, last_name, email, phone_number, image, status, gender, date_of_birth, firm, year_of_graduation};
       console.warn("alumni-data",data)
  
       let result = await fetch("http://127.0.0.1:8000/ordinateur/alumni_data/",{
@@ -60,7 +59,7 @@ function AlumniForm(){
         <Link to='/forms' className="bg-gray-300 w-40 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-lg">
           Event Form
           </Link >
-          </div>
+          </div>  
         
         <div className=''>
             <section className='relative rounded-lg  m-10'>
@@ -110,10 +109,7 @@ function AlumniForm(){
                </label>
                </div>
                <div className='flex gap-4'>
-               <label className='label'>Date of joining:
-               <input type='text' className='' placeholder='YYYY-MM-DD' value={date_of_joining} onChange={(e) => setDate(e.target.value)}/>
-               </label>
-               <label className='label'>Photo:
+               <label className='label'>Degree:
                <input type='file' className='focus:outline-none ' value={image} onChange={(e) => setImage(e.target.value)}/>
                </label>
                </div>

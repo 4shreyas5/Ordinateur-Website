@@ -25,7 +25,7 @@ function Alumni2() {
       <th className='p-3 w-80'>YEAR OF GRADUATION</th>
       <th className='p-3 w-80'>STATUS</th>
       <th className='p-3 w-80'>COMPANY</th>
-      <th className='p-3 w-80'>DATE OF JOINING</th>
+      
     </tr> 
   </thead>
   <tbody className=' text-black py-5 divide-y-4'>
@@ -35,7 +35,7 @@ function Alumni2() {
       <img 
       className="text-blsck float-left h-10 w-10 rounded-full box-border border-2 border-blue-300 
       transition ease-in-out delay-150 hover:scale-125" 
-      src={items.image} 
+      src='/images/icon.png' 
       alt={items.first_name} 
       />
         <div className=' font-semibold'>{items.first_name} {items.last_name}<br/></div>
@@ -59,9 +59,7 @@ function Alumni2() {
     <td>
         {items.firm} 
     </td>
-    <td>
-        {items.date_of_joining} 
-    </td>
+   
 </tr>    
   ))}
    
