@@ -4,8 +4,8 @@ import { Card, Typography, CardHeader, CardBody, Avatar } from "@material-tailwi
 function EventCard({img, eventYear, events}) {
   return (
     <div className=" ">
-    <Card color="transparent"  shadow={false} className="grid">
-        <Avatar
+    <Card color="transparent"  shadow={false} className="grid ">
+        <Avatar 
         src={img}
         alt={eventYear}
         size="xl" 

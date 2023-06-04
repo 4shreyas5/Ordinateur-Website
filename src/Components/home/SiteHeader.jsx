@@ -1,12 +1,12 @@
 import React from "react";
 
 function SiteHeader(){
-    return(
-        <div className="bg-black w-full h-32">
+    return( 
+        <div className="bg-black w-full h-32 ">
             <div className="flex justify-between">
          <div className="-mx-4 -mt-1 w-48 h-48">
             <img src='/images/ordinateur_logo.png' />
-        </div>
+        </div>  
         <div className="mt-1">
             <h2 className="-ml-2 text-white text-5xl">
                 <b>ORDINATEUR</b>

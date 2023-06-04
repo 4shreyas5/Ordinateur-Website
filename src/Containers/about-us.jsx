@@ -9,12 +9,12 @@ import {Link} from "react-router-dom"
 
 export function AboutUs(){
     return(
-      <div className=''>
+      <div className='bg-black'>
         <SiteHeader/>
         <NavBar/>
       <section className=''>
-        <h3 className='font-bold text-2xl m-4 '>About The Society</h3>
-        <p className='m-4 '>Filled with geeks who are passionate about the world of technology, We are one of the best Computer
+        <h3 className='font-bold text-2xl m-4 text-white '><u>About The Society</u></h3>
+        <p className='m-4 text-white'>Filled with geeks who are passionate about the world of technology, We are one of the best Computer
             Science Society in Delhi University, proving the legacy of the CS Department of Hansraj College. 
             The society members share interest in almost all subfields of Computer Science. We are made of people 
             ranging from Web Developers to Competitive Programmers, from Ethical Hackers to Data Scientists and from 
@@ -26,23 +26,23 @@ export function AboutUs(){
             friendly human beings.</p>
       </section>  
       <section className=''>
-        <h3 className='font-bold text-2xl m-4 '>Core Team</h3>
-        <div className='flex justify-between '>
-        <ul className='list-disc m-4 border-2 p-2 rounded-lg bg-zinc-300 border-2 hover:border-zinc-300 hover:bg-white hover:scale-100 transition duration-300 ease-in-out shadow-xl'><b>Faculty Members</b>
-          <li className='ml-4 m-4 '><b>Course Coordinator:</b> Ms.Sunita Chand</li>
-          <li className='ml-4 m-4'><b>Convenor:</b> Suyash Kumar</li>
-          <li className='ml-4 m-4'><b>Co-Convenor:</b> Aarti Goel</li>
+        <h3 className='font-bold text-2xl m-4 text-white'><u>Core Team</u></h3>
+        <div className='flex'>
+        <ul className='grid text-sky-500  m-4 group-hover:border-solid border-2 p-2 rounded-lg bg-zinc-900 hover:border-sky-500 '><b><u>Faculty Members</u></b>
+          <li className='ml-4 m-4 text-white'><b className=''>Course Coordinator:</b> Ms.Sunita Chand</li>
+          <li className='ml-4 m-4 text-white'><b>Convenor:</b> Suyash Kumar</li>
+          <li className='ml-4 m-4 text-white'><b>Co-Convenor:</b> Aarti Goel</li>
 
         </ul>
-        <img
+        {/* <img
         src="/images/about.jpg"
-        className='h-auto max-w-lg '
-        />
-        <ul className='grid m-4 border-2 p-2 rounded-lg bg-zinc-300 hover:border-zinc-300 hover:bg-white border-2 hover:border-zinc-500 hover:scale-100 transition duration-300 ease-in-out shadow-xl'><b>Student Coordinator</b>
-          <a href='https://www.linkedin.com/in/4shreyassingh5/' target="_blank" className='ml-4 m-4'><b>President:</b> Shreyas Singh</a>
-          <a href='https://www.linkedin.com/in/paramjeet-bamaniya-230160226/' target="_blank" className='ml-4 m-4'><b>Vice President:</b> Paramjeet Bamaniya</a>
-          <a href='https://www.linkedin.com/in/akansha-bharti/' target="_blank" className='ml-4 m-4'><b>General Secretary:</b> Akansha Bharti</a>
-          <a href='https://www.linkedin.com/in/ankit-kanojiya-242a15225/' target="_blank" className='ml-4 m-4'><b>Treasurer:</b> Ankit</a>
+        className='h-auto max-w-lg px-20'
+        /> */}
+        <ul className='grid text-sky-500 list-disc m-4 group-hover:border-solid border-2 p-2 rounded-lg bg-zinc-900 hover:border-sky-500 '><b><u>Student Coordinator</u></b>
+          <a href='https://www.linkedin.com/in/4shreyassingh5/' target="_blank" className='ml-4 m-4 text-white'><b>President:</b> Shreyas Singh</a>
+          <a href='https://www.linkedin.com/in/paramjeet-bamaniya-230160226/' target="_blank" className='ml-4 m-4 text-white'><b>Vice President:</b> Paramjeet Bamaniya</a>
+          <a href='https://www.linkedin.com/in/akansha-bharti/' target="_blank" className='ml-4 m-4  text-white'><b>General Secretary:</b> Akansha Bharti</a>
+          <a href='https://www.linkedin.com/in/ankit-kanojiya-242a15225/' target="_blank" className='ml-4 m-4 text-white'><b>Treasurer:</b> Ankit</a>
         </ul>
         
         </div>
@@ -52,33 +52,33 @@ export function AboutUs(){
       </section>
 
       <section>
-        <h3 className='font-bold text-2xl m-4 '>Wings</h3>
-        <div className='flex m-6 gap-6'>
-          <Link to='/home' className=' list-disc m-4 '><b>Technical Wing</b>
+        <h3 className='font-bold text-2xl m-4 text-white'><u>Wings</u></h3>
+        <div className='flex m-6 gap-6 grid md:grid-cols-3 xl:grid-cols-6 '>
+          <Link to='/home' className=' list-disc m-4 text-white'><b>Technical Wing</b>
           <img src="/images/technical.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
             <li className='ml-4'><b>Head:</b> Arun Chandra </li>
             <li className='ml-4'><b>Head:</b> Arun Krishna </li>
             <li className='ml-4'><b>De-Head:</b> Nitin</li>
           </Link>
-          <Link to='/home' className='list-disc m-4'><b>Editorial Wing</b>
+          <Link to='/home' className='list-disc m-4 text-white'><b>Editorial Wing</b>
           <img src="/images/editorial.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
             <li className='ml-4'><b>Head:</b> Neelam </li>
             <li className='ml-4'><b>Bitwise Head:</b> Aasim </li>
           </Link>
-          <Link to='/home' className='list-disc m-4'><b>PR & Marketing Wing</b>
+          <Link to='/home' className='list-disc m-4 text-white'><b>PR & Marketing Wing</b>
           <img src="/images/marketing.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
             <li className='ml-4'><b>Head:</b> Tanmay</li>
           </Link>
-          <Link to='/home' className='list-disc m-4'><b>Operations Wing</b>
+          <Link to='/home' className='list-disc m-4 text-white'><b>Operations Wing</b>
           <img src="/images/event.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
             <li className='ml-4'><b>Head:</b> Sajal </li>
             <li className='ml-4'><b>Head:</b> Deepak </li>
           </Link>
-          <Link to='/home' className='list-disc m-4'><b>Internship Wing</b>
+          <Link to='/home' className='list-disc m-4 text-white'><b>Internship Wing</b>
           <img src="/images/internship.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
             <li className='ml-4'><b>Head:</b> Manvi </li>
           </Link>
-          <Link to='/home' className='list-disc m-4'><b>R & D Wing</b>
+          <Link to='/home' className='list-disc m-4 text-white'><b>R & D Wing</b>
           <img src="/images/r&d.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
             <li className='ml-4'><b>Head:</b> Mina </li>
           </Link>

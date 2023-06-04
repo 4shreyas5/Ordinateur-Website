@@ -17,9 +17,7 @@ function Carousel(){
       const images = [
         { src: "/images/c1.jpg" },
         { src: "/images/c2.jpg" },
-        { src: "/images/c3.jpg" },
-        
-        { src: "/images/c5.jpg"},
+        { src: "/images/c4.jpg"},
         { src: "/images/c6.jpg"}
       ];
       
@@ -28,7 +26,7 @@ function Carousel(){
             <Slider {...settings}>
   {images.map((image) => (
     <div>
-      <img src={image.src} alt="carousel" className="block w-full"/>
+      <img src={image.src} alt="carousel" className="block resize-x"/>
     </div>
   ))}
 </Slider>

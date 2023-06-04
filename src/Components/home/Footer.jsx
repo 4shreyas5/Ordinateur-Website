@@ -1,5 +1,4 @@
 import React from 'react'
-// import ord from "../Assets/Images/ordinateur_logo.png"
 import { FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa';
 import {Link} from 'react-router-dom'
 
@@ -35,9 +34,9 @@ function Footer(){
                 <Link to='/aboutus' className='my-3' >About Us</Link>
                 <Link to='/home' className='my-3' >Home</Link>
                 <Link to='/events' className='my-3' >Events</Link>
-                <Link to='/alumni' className='my-3' >Alumni</Link>
+                {/* <Link to='/alumni' className='my-3' >Alumni</Link> */}
                 <Link to='/for_students' className='my-3' >For Students</Link>
-                <Link to='/Faculty' className='my-3' >Faculty and Staff</Link>
+                <Link to='/Faculty' className='my-3' >Faculty</Link>
         </div>
         </div>
         </div>

@@ -8,7 +8,7 @@ import Footer from '../Components/home/Footer'
 
 function Events(){
     return(
-        <>
+        <> 
         <SiteHeader/>
         <NavBar/>
         <div className=''>
