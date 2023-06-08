@@ -4,21 +4,22 @@ import {Link} from 'react-router-dom'
 
 function Footer(){
     return(
-        <div className='bg-zinc-800 text-white'>
+        <div className='bg-zinc-800 text-white '>
             <div className="flex flex-row justify-between">
             <div>
         <div className='flex'>
             <div className="w-48 h-48">
                 <img src='/images/ordinateur_logo.png' />
             </div>
-            <div className='mt-6 -ml-6 '>
+            <div className='mt-6 -ml-6'>
                 <b className='text-2xl'>Ordinateur</b>
                 <p className='text-md'>The Computer Science Society</p>
                 <p className='text-lg'>Hansraj College</p>
             </div>
         </div>
         
-        <div className='ml-10 -mt-10'>
+        
+        <div className='ml-10 -mt-10 '>
         <p>Address:</p>
         <p className='ml-4'><i>Mahatma Hans Raj Marg, Hansraj College, University of Delhi,</i></p>
         <p className='ml-4'><i>Malka Ganj, Delhi, 110007</i></p>
@@ -28,9 +29,10 @@ function Footer(){
         </div>
         </div>
 
-        <div>
+
+        <div className='grid xl:grid-cols-3 md:grid-cols-2'>
         <div className="mt-6 -ml-40 text-center">
-        <div className=' flex flex-col'>
+        <div className=' flex flex-col '>
                 <Link to='/aboutus' className='my-3' >About Us</Link>
                 <Link to='/home' className='my-3' >Home</Link>
                 <Link to='/events' className='my-3' >Events</Link>
@@ -39,10 +41,10 @@ function Footer(){
                 <Link to='/Faculty' className='my-3' >Faculty</Link>
         </div>
         </div>
-        </div>
+        
 
         <div>
-        <div className="mt-8 mr-44 -ml-24 text-end">
+        <div className="mt-8 mr-44 -ml-24 text-end ">
             
             <p className='text-xl italic'>Follow Us</p>
             <div className='grid gap-8 mr-10 mt-5 justify-end text-center transition ease-in-out'>
@@ -57,6 +59,7 @@ function Footer(){
                 </div>
             </div>
 
+        </div>
         </div>
         </div>
         </div>

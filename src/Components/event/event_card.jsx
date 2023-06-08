@@ -5,14 +5,16 @@ function EventCard({img, eventYear, events}) {
   return (
     <div className=" ">
     <Card color="transparent"  shadow={false} className="grid ">
+      <button className="">
         <Avatar 
         src={img}
         alt={eventYear}
-        size="xl" 
+        size="xl"  
         className="h-60 w-60 p-2 rounded-lg mt-6 border-4 border-zinc-900 shadow shadow-2xl hover:shadow-gray-700 hover:scale-110 transition duration-300 ease-in-out" 
         />
+        </button>
       <CardBody>
-      <a href={events} target={"_blank"}  className="font-bold cursor-pointer text-lg mt-4 ">
+      <a href={events} target={"_blank"}  className="font-bold cursor-pointer text-lg mt-4 text-white">
         {eventYear} 
       </a>
       </CardBody>

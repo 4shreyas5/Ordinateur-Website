@@ -6,7 +6,7 @@ function FacultyCard({img, name, position,profile}) {
     <div className=" ">
     <Card color="transparent"  shadow={false} className="grid">
         <Avatar
-        src={img}
+        src={img} 
         alt={name}
         size="xl" 
         className="h-48 w-48 p-2 rounded-full mt-6 border-4 border-zinc-900 shadow shadow-2xl hover:shadow-gray-700 hover:scale-110 transition duration-300 ease-in-out" 

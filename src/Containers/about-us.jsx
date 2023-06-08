@@ -12,6 +12,7 @@ export function AboutUs(){
       <div className='bg-black'>
         <SiteHeader/>
         <NavBar/>
+        <hr></hr>
       <section className=''>
         <h3 className='font-bold text-2xl m-4 text-white '><u>About The Society</u></h3>
         <p className='m-4 text-white'>Filled with geeks who are passionate about the world of technology, We are one of the best Computer

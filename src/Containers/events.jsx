@@ -1,20 +1,23 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
 import SiteHeader from '../Components/home/SiteHeader'
-import {Link} from "react-router-dom"
 import EventCard from '../Components/event/event_card'
 import eventData from '../Components/event/event_data'
 import Footer from '../Components/home/Footer'
+import Events2022_23 from '../Components/event/events2022_23'
 
 function Events(){
     return(
         <> 
         <SiteHeader/>
         <NavBar/>
-        <div className=''>
-        <h2 className='text-center text-3xl font-bold mt-2'>Events</h2>
-        <section className=''>
-           <div className="grid gap-x-10 md:grid-cols-2 xl:grid-cols-4 px-20 mb-6">
+        <hr></hr>
+        <div className='bg-black'>
+        <h2 className='text-center text-3xl font-bold text-white mb-2'><u>Events</u></h2>
+        <Events2022_23/>
+        
+        <section className='mt-20'>
+           <div className="grid gap-x-10 md:grid-cols-2 xl:grid-cols-4 px-20 ">
             {eventData.map(({img, eventYear, events}) => (
               <EventCard
                 key={eventYear}       

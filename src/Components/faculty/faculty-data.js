@@ -2,7 +2,7 @@ export const facultyData=[
     {
         img:"https://www.hansrajcollege.ac.in/files/userImg/51/User-Image-2838023a778dfaecdc212708f721b788-6cde61824e1205e578fb5e1427958408.jpeg",  //images are from public folder
         name:"Sanjay Batra",
-        position:"Vice Principal and Associate Professor M.C.A",
+        position:"Vice Principal and Associate Professor M.C.A", 
         profile:"https://www.hansrajcollege.ac.in/academics/departments/science/computer-science/faculty-detail/51/"
     },
     {
