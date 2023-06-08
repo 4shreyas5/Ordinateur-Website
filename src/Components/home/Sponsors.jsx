@@ -36,10 +36,8 @@ function Sponsors (){
   ))}
   
 </Slider>
-
-            </div>
-
-        </div>
+</div>
+</div>
     )
 
 }

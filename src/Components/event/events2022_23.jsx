@@ -1,6 +1,5 @@
 import React from 'react'
 
-//  h-auto max-w-lg px-20 mt-4 
 function Events2022_23(){
     return(
         <div className=''>
@@ -100,10 +99,7 @@ function Events2022_23(){
         </div>
         <hr></hr>
 
-        
-
-        </div>
-    
+</div>
     )
 }
 export default Events2022_23

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Card, Typography, CardHeader, CardBody, Avatar } from "@material-tailwind/react";
+import { Card, Typography, CardBody, Avatar } from "@material-tailwind/react";
 
 function FacultyCard({img, name, position,profile}) {
   return (

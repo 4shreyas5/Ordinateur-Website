@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { Card, Typography, CardHeader, CardBody, Avatar } from "@material-tailwind/react";
+import { Card, CardBody, Avatar } from "@material-tailwind/react";
 
 function EventCard({img, eventYear, events}) {
   return (
@@ -23,12 +23,9 @@ function EventCard({img, eventYear, events}) {
   );  
 }
 
-
 EventCard.propTypes = {
   img: PropTypes.string.isRequired,
   eventYear: PropTypes.string.isRequired,
-//   events: PropTypes.string,
-
 }; 
 
 EventCard.displayName = "/src/components/event_card.jsx";
