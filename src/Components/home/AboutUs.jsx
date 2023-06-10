@@ -3,12 +3,12 @@ import React from 'react'
 function AboutUs(){
     return(
         <div className="flex bg-black ">
-            <div className="h-full w-full">
-                <img src='/images/ordinateur_logo.png' alt="Image" className=" my-6"/>
-            </div>
+            <div className="h-full w-full ">
+                <img src='/images/ordinateur_logo.png' alt="Image" className=" my-6 hidden md:block"/>
+            </div> 
             <div className="border-l-4 grid content-baseline">
-            <div className="text-white">
-                <h2 className="mt-4 ml-80 text-4xl "><b>About Us</b></h2>
+            <div className="text-white ">
+                <h2 className="mt-4 ml-80 text-3xl "><b>About Us</b></h2>
             </div>           
             <div className=''> 
             <p className=" mx-10 mt-4 text-white">

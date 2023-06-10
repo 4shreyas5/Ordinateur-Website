@@ -29,13 +29,13 @@ function Wings(){
 
     return(
         <div className="ml-6 mr-24 text-white text-center">
-            <div className="underline underline-offset-4 text-center mt-4 mb-4 text-4xl">
+            <div className="underline underline-offset-4 text-center mt-4 mb-4 text-3xl">
                 <b>Wings</b>
             </div>
             
             <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-20 gap-y-6">
                 {wings.map((wing) => (
-                    <div className='group w-96 bg-zinc-900 rounded-md'>
+                    <div className='group w-96 bg-zinc-900 rounded-md '>
                          <Card className="w-96 group-hover:border-solid group-hover:border-2 group-hover:rounded-md group-hover:border-sky-500  ">
       <CardHeader
         variant="gradient"

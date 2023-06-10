@@ -12,13 +12,18 @@ function Events2022_23(){
         src="/images/au_revoir.jpg"
         className='px-20 mt-4 max-w-full h-auto mx-auto mb-4'
         />
-        <p className='text-white'>The Talaash event organized by the Ordinateur - The Computer Science  society of Hansraj College was a momentous success.
-                The event was designed to promote problem-solving skills, teamwork, and quick thinking. The teams enjoyed the event and 
-                showed their skills in a fun and engaging manner. The winners were awarded cash prizes and goodies, making the event even 
-                more exciting.<br></br> The society members were actively involved in organizing the event and ensuring that it ran smoothly. 
-                The event was conducted on the college premises, and the teams were given clues to get on with the treasure hunt. <br></br>
-                The participants were given instructions before the event began, explaining its rules and regulations. The event organizers 
-                ensured enough staff were present to check the event and aid the teams if needed. 
+        <p className='text-white'>The purpose of the farewell party organized by the ORDINATEUR at Hansraj College is to bid farewell 
+        to the departing students and commemorate their time at the college. It serves as a significant event to express gratitude for 
+        their contributions, celebrate their achievements, and provide closure to their college journey.<br></br> The farewell party aims to create 
+        a heartfelt and nostalgic atmosphere where the entire college community can come together to honour and appreciate the departing 
+        students' hard work, dedication, and growth. It also provides an opportunity for seniors and juniors to strengthen their bonds, 
+        share memories, and establish lifelong connections, fostering a sense of unity and camaraderie within the Computer Science Department. 
+        <br></br> Additionally, the farewell party inspires and motivates the juniors by highlighting the accomplishments and success stories of the 
+        departing students, encouraging them to strive for excellence in their academic.<br></br> To make the event more special, the ORDINATEUR 
+        presented personalized mementos to each graduating student as a token of appreciation.  
+
+ 
+
         </p>
         </div>
         </div>
@@ -100,7 +105,8 @@ function Events2022_23(){
         <hr></hr>
 
 </div>
-    )
+    
+)
 }
 export default Events2022_23
 

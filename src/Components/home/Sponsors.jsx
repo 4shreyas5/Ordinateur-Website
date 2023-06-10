@@ -27,7 +27,7 @@ function Sponsors (){
     return(
         <div className="text-white">
             <div className="text-center my-10">
-                <p className="text-4xl"><b>Our Past Partners</b></p>
+                <p className="text-3xl"><b>Our Past Partners</b></p>
                 <Slider {...settings}>
   {images.map((image) => (
     <div>

@@ -9,7 +9,7 @@ function Core_team(){
         <section>
         <h3 className='font-bold text-2xl m-4 text-white'><u>Core Team</u></h3>
         <div className='flex'>
-        <ul className='grid text-sky-500  m-4 group-hover:border-solid border-2 p-2 rounded-lg bg-zinc-900 hover:border-sky-500 '><b><u>Faculty Members</u></b>
+        <ul className='grid text-sky-500  m-4 border-2 p-2 rounded-lg bg-zinc-900 hover:border-sky-500 '><b><u>Faculty Members</u></b>
           <li className='ml-4 m-4 text-white'><b className=''>Course Coordinator:</b> Ms.Sunita Chand</li>
           <li className='ml-4 m-4 text-white'><b>Convenor:</b> Suyash Kumar</li>
           <li className='ml-4 m-4 text-white'><b>Co-Convenor:</b> Aarti Goel</li>
