@@ -12,7 +12,7 @@ function Guidlines3 (){
              <div className='bg-black text-white'>
         <SiteHeader/>
         <NavBar/>
-        <h2 className='text-center text-3xl font-bold mt-2'>Syllabus/Guidlines - III Year</h2>
+        <h2 className='text-center text-3xl font-bold mt-2'>Syllabus/Guidelines - III Year</h2>
         <div className='mx-20 mt-4'>
         <h1 className='font-bold mt-2 mx-4 text-xl'>Semester 5</h1>
         

@@ -41,7 +41,7 @@ function ForStudents(){
       <hr></hr>
       <Divider light />
     </List>
-    <h1 className='font-bold mt-2 mx-4 text-xl'>Syllabus/Guidlines</h1>
+    <h1 className='font-bold mt-2 mx-4 text-xl'>Syllabus/Guidelines</h1>
     <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="I Year" />
