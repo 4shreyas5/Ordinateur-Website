@@ -4,7 +4,7 @@ export const eventData=[
         eventYear: "2022-23",
         events: ""
     },
-    {
+    { 
         img: "/images/2021-22.jpg",
         eventYear: "2021-22",
         events: "https://www.hansrajcollege.ac.in/studentcorner/socities/societiesreports/14/2021-2022/"
@@ -22,7 +22,7 @@ export const eventData=[
  
     },
     {
-        img: "/images/event6.jpg",
+        img: "/images/2018-19.jpg",
         eventYear: "2018-19",
         events: "https://www.hansrajcollege.ac.in/studentcorner/socities/societiesreports/14/2018-2019/"
 

@@ -57,7 +57,7 @@ function SignUp(){
                <label className='label'>Email:
                <input type='email' className='' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)}/>
                </label>
-               {/* <div className='flex gap-8'>   */}
+
                <label>Gender :
                <select className='' placeholder='select Gender' value={gender} onChange={(e) => setGender(e.target.value)}>
                     <option value="none">Select Gender</option>

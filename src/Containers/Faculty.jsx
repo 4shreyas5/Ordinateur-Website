@@ -12,7 +12,7 @@ export function Faculty() {
       <NavBar/>
       <hr></hr>
       <section className=''>
-      <h3 className="mb-4 mt-4 text-3xl text-center font-bold text-white">FACULTY</h3>
+      <h3 className="mb-4 mt-4 text-3xl text-center font-bold text-white"><u>Faculty</u></h3>
            <div className="grid gap-x-10 md:grid-cols-2 xl:grid-cols-4 px-20 mb-6">
             {facultyData.map(({img, name, position,profile}) => (
               <FacultyCard

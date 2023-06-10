@@ -1,18 +1,20 @@
 import PropTypes from "prop-types";
-import { Card, Typography, CardHeader, CardBody, Avatar } from "@material-tailwind/react";
+import { Card, CardBody, Avatar } from "@material-tailwind/react";
 
 function EventCard({img, eventYear, events}) {
   return (
     <div className=" ">
-    <Card color="transparent"  shadow={false} className="grid ">
+    <Card color="transparent" shadow={false} className="grid">
+      <button className="">
         <Avatar 
         src={img}
         alt={eventYear}
-        size="xl" 
-        className="h-60 w-60 p-2 rounded-lg mt-6 border-4 border-zinc-900 shadow shadow-2xl hover:shadow-gray-700 hover:scale-110 transition duration-300 ease-in-out mb-3" 
+        size="xl"  
+        className="h-60 w-60 p-2 rounded-lg mt-6 border-2 border-zinc-900 hover:border-sky-500" 
         />
+        </button>
       <CardBody>
-      <a href={events} target={"_blank"}  className="font-bold cursor-pointer text-lg ml-20 mt-4 ">
+      <a href={events} target={"_blank"}  className="font-bold cursor-pointer text-lg mt-4 text-white">
         {eventYear} 
       </a>
       </CardBody>
@@ -21,12 +23,9 @@ function EventCard({img, eventYear, events}) {
   );  
 }
 
-
 EventCard.propTypes = {
   img: PropTypes.string.isRequired,
   eventYear: PropTypes.string.isRequired,
-//   events: PropTypes.string,
-
 }; 
 
 EventCard.displayName = "/src/components/event_card.jsx";
