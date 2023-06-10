@@ -58,7 +58,7 @@ export function AboutUs(){
           <img src="/images/technical.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>
             <li className='ml-4'><b>Head:</b> Arun Chandra </li>
             <li className='ml-4'><b>Head:</b> Arun Krishna </li>
-            <li className='ml-4'><b>De-Head:</b> Nitin</li>
+            <li className='ml-4'><b>D-Head:</b> Nitin</li>
           </Link>
           <Link to='/home' className='list-disc m-4 text-white'><b>Editorial Wing</b>
           <img src="/images/editorial.jpg " className='h-40 w-40 mt-2 mb-2 rounded-full border-2 border-zinc-300 '/>

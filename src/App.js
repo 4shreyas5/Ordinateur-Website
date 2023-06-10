@@ -10,6 +10,13 @@ import SignUp from "./Containers/SignUp";
 import SignIn from './Containers/sign-in';
 import AlumniForm from "./Components/forms/alumni_form";
 import EventForm from "./Components/forms/event_form";
+import Guidlines from "./Components/guidlines";
+import Guidlines2 from "./Components/guidlines2";
+import Guidlines3 from "./Components/guidlines3";
+import Resources from "./Components/resources";
+import Resources2 from "./Components/resources2";
+import Resources3 from "./Components/resources3";
+
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -32,6 +39,12 @@ return(
   <Route path='/signup' element = {<SignUp/>}></Route> 
   <Route path='/alumni_form' element = {<AlumniForm/>}></Route> 
   <Route path='/forms' element = {<EventForm/>}></Route> 
+  <Route path='/guidlines' element = {<Guidlines/>}></Route> 
+  <Route path='/guidlines2' element = {<Guidlines2/>}></Route> 
+  <Route path='/guidlines3' element = {<Guidlines3/>}></Route> 
+  <Route path='/resources' element = {<Resources/>}></Route>
+  <Route path='/resources2' element = {<Resources2/>}></Route>
+  <Route path='/resources3' element = {<Resources3/>}></Route>
 
   </Routes>
   </BrowserRouter>

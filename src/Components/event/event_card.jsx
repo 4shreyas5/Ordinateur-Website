@@ -9,10 +9,10 @@ function EventCard({img, eventYear, events}) {
         src={img}
         alt={eventYear}
         size="xl" 
-        className="h-60 w-60 p-2 rounded-lg mt-6 border-4 border-zinc-900 shadow shadow-2xl hover:shadow-gray-700 hover:scale-110 transition duration-300 ease-in-out" 
+        className="h-60 w-60 p-2 rounded-lg mt-6 border-4 border-zinc-900 shadow shadow-2xl hover:shadow-gray-700 hover:scale-110 transition duration-300 ease-in-out mb-3" 
         />
       <CardBody>
-      <a href={events} target={"_blank"}  className="font-bold cursor-pointer text-lg mt-4 ">
+      <a href={events} target={"_blank"}  className="font-bold cursor-pointer text-lg ml-20 mt-4 ">
         {eventYear} 
       </a>
       </CardBody>

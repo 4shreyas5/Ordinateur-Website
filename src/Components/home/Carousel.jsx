@@ -15,10 +15,10 @@ function Carousel(){
       };
       
       const images = [
-        { src: "/images/c1.jpg" },
-        { src: "/images/c2.jpg" },
-        { src: "/images/c4.jpg"},
-        { src: "/images/c6.jpg"}
+        { src: "/images/IMG_1C.jpg" },
+        { src: "/images/IMG_2C.jpg" },
+        { src: "/images/WIMGC.jpg"}
+        // { src: "/images/c6.jpg"}
       ];
       
     return(
