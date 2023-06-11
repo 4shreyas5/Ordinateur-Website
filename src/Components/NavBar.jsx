@@ -11,12 +11,8 @@ function NavBar(){
                 <Link to='/home'>Home</Link>
                 <Link to='/events'>Events</Link> 
                 <Link to='/for_students'>For Students</Link> 
-                {/* <Link to='/alumni'>Alumni</Link> */}
-                {/* <Link to='/forms'>Forms</Link> */}
                 <Link to='/Faculty'>Faculty</Link>
                 <Link to='/aboutus'>About Us</Link>
-                {/* <Link to='/signin'>Sign In </Link> */}
-                {/* <Link to='/signup'>Sign Up</Link> */}
             </div> 
         </div>
         </div>

@@ -10,14 +10,13 @@ function Carousel(){
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: true, 
       };
       
       const images = [
         { src: "/images/IMG_1C.jpg" },
         { src: "/images/IMG_2C.jpg" },
         { src: "/images/WIMGC.jpg"}
-        // { src: "/images/c6.jpg"}
       ];
       
     return(
