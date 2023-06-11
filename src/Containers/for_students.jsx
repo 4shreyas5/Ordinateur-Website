@@ -21,27 +21,27 @@ function ForStudents(){
         <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="I Year" />
-        <a href='https://drive.google.com/file/d/1TeYwVb2DhpqXy21CEUP-9KnxICEXa5pB/view?usp=drive_link' target='_blank'>
+        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <Divider />
       <ListItem  divider>
         <ListItemText primary="II Year" />
-        <a href='https://drive.google.com/file/d/1RH8CWT5MAEijoHyqoUo-4vicSONJMpZs/view?usp=sharing' target='_blank'>
+        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem >
         <ListItemText primary="III Year" />
-        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
+        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <hr></hr>
       <Divider light />
     </List>
-    <h1 className='font-bold mt-2 mx-4 text-xl'>Syllabus/Guidlines</h1>
+    <h1 className='font-bold mt-2 mx-4 text-xl'>Syllabus/Guidelines</h1>
     <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="I Year" />
