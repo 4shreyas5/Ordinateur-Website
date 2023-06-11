@@ -19,7 +19,7 @@ function Guidlines3 (){
         <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="Data Analysis and Visualisation" />
-        <a href='https://drive.google.com/file/d/1DoWfbUWhq8f4yBX8Xy1HjeMm4kKMkLvR/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>

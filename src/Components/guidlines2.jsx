@@ -19,19 +19,19 @@ function Guidlines2 (){
         <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="Data Structures and Algorithms" />
-        <a href='https://drive.google.com/file/d/10MFIwglFiaLofvKSeCJ69_pNLsukxtvI/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem  divider>
         <ListItemText primary="Operating Systems" />
-        <a href='https://drive.google.com/file/d/1BFNDe-yG61h3LIojLzefXDKU6u-Nsh4g/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem >
         <ListItemText primary="Computer Networks" />
-        <a href='https://drive.google.com/file/d/1kOzsYDNg0ZK2KGTGFwMcXGOe8noEThFg/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
@@ -42,19 +42,19 @@ function Guidlines2 (){
         <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="Design Analysis of Algorithms" />
-        <a href='https://drive.google.com/file/d/1NznRx9ruFamVfRU_SmYRfbFHhjHqKxP8/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem  divider>
         <ListItemText primary="Database Management System" />
-        <a href='https://drive.google.com/file/d/1wN4dfdVztfKbhp4zsU_bwUBiQRsmW5M3/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem >
         <ListItemText primary="Software Engineering" />
-        <a href='https://drive.google.com/file/d/10Q-L6aw8wIYUAYfT1odrt1OMM_mhg7OG/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>

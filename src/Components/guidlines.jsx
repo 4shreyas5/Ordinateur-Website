@@ -19,19 +19,19 @@ function Guidlines (){
         <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="Computer System Architecture" />
-        <a href='https://docs.google.com/document/d/10x5_6RvalPpQHjn4ReXuSpICU7UMAK79/edit?usp=drive_link&ouid=100436684651758325144&rtpof=true&sd=true' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem  divider>
         <ListItemText primary="Programming using Python" />
-        <a href='https://drive.google.com/file/d/1gCsA8bE4EIJZ3iPScPRB3iTNIVXFTHwl/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem >
         <ListItemText primary="Mathematics for Computing" />
-        <a href='https://docs.google.com/document/d/1HQonTlDmNdjO35-98J6wi9R6BOCvf1iI/edit?usp=drive_link&ouid=100436684651758325144&rtpof=true&sd=true' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
@@ -42,19 +42,19 @@ function Guidlines (){
         <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="Object Oriented Programming with C++ " />
-        <a href='https://docs.google.com/document/d/1bLszqbP1zwfT3ofuS9PT3iEYk0-HZlmu/edit?usp=drive_link&ouid=100436684651758325144&rtpof=true&sd=true' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem  divider>
         <ListItemText primary="Discrete Mathematics" />
-        <a href='https://drive.google.com/file/d/10L83S2B7b8NSKCKt6bhKnUSdD5-O_BqL/view?usp=drive_link' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem >
         <ListItemText primary="Probability for Computing" />
-        <a href='https://docs.google.com/document/d/1HQonTlDmNdjO35-98J6wi9R6BOCvf1iI/edit?usp=drive_link&ouid=100436684651758325144&rtpof=true&sd=true' target='_blank'>
+        <a href='https://drive.google.com/file/d/1x2xdr3zk4rzV37A7Us1h5Wl0Z76G8Rc4/view?usp=sharing' target='_blank'>
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
