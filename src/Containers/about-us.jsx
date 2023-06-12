@@ -1,9 +1,9 @@
 import React from 'react'
 import NavBar from '../Components/NavBar'
 import SiteHeader from '../Components/home/SiteHeader'
-import About_Society from '../Components/about_us/about _society'
-import Core_team from '../Components/about_us/core_team';
-import Wings_head from '../Components/about_us/wings';
+import AboutSociety from '../Components/about_us/about _society'
+import CoreTeam from '../Components/about_us/core_team';
+import WingsHead from '../Components/about_us/wings';
 import Footer from '../Components/home/Footer'
 
 export function AboutUs(){
@@ -12,9 +12,9 @@ export function AboutUs(){
         <SiteHeader/>
         <NavBar/>
         <hr></hr>
-        <About_Society/>
-        <Core_team/>
-        <Wings_head/>
+        <AboutSociety/>
+        <CoreTeam/>
+        <WingsHead/>
         <Footer/>
       </div>
     )

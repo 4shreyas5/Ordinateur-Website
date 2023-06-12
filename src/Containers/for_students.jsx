@@ -21,20 +21,20 @@ function ForStudents(){
         <List component="nav" aria-label="mailbox folders">
       <ListItem >
         <ListItemText primary="I Year" />
-        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank'>
+        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank' rel="noreferrer">
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <Divider />
       <ListItem  divider>
         <ListItemText primary="II Year" />
-        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank'>
+        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank' rel="noreferrer">
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>
       <ListItem >
         <ListItemText primary="III Year" />
-        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank'>
+        <a href='https://www.hansrajcollege.ac.in/academics/timetable' target='_blank' rel="noreferrer">
         <Button className='bg-sky-500 w-20'>Visit</Button>
         </a>
       </ListItem>

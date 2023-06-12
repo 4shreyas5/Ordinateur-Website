@@ -14,7 +14,7 @@ function EventCard({img, eventYear, events}) {
         />
         </button>
       <CardBody>
-      <a href={events} target={"_blank"}  className="font-bold cursor-pointer text-lg mt-4 text-white">
+      <a href={events} target={"_blank"} rel="noreferrer"  className="font-bold cursor-pointer text-lg mt-4 text-white">
         {eventYear} 
       </a>
       </CardBody>

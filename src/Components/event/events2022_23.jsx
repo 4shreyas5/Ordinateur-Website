@@ -9,7 +9,7 @@ function Events2022_23(){
         <h2 className='text-white font-bold text-2xl px-16 mb-10'>Au-revoir'23</h2>
         <div className='flex grid md:grid-cols-2 xl:grid-cols-2'>
         <img
-        src="/images/au_revoir.jpg"
+        src="/images/au_revoir.jpg" alt="img"
         className='px-20 mt-4 max-w-full h-auto mx-auto mb-4'
         />
         <p className='text-white'>The purpose of the farewell party organized by the ORDINATEUR at Hansraj College is to bid farewell 
@@ -41,7 +41,7 @@ function Events2022_23(){
                 ensured enough staff were present to check the event and aid the teams if needed. 
             </p>
         <img
-            src="/images/2022-23.jpg"
+            src="/images/2022-23.jpg" alt="img"
             className='px-20 mt-4 max-w-full h-auto mx-auto'
         />
         </div>
@@ -52,7 +52,7 @@ function Events2022_23(){
         <h2 className='text-white font-bold text-2xl px-16 mb-10'>Seminar - Pre-Placement Talk</h2>
         <div className='flex grid md:grid-cols-2 xl:grid-cols-2'>
         <img
-        src="/images/pre_placement.jpg"
+        src="/images/pre_placement.jpg" alt="img"
         className='px-20 mt-4 max-w-full h-auto mx-auto mb-4'
         />
         <p className='text-white '>The Pre-Placement Talk organized by Ordinateur - The Computer Science Society of Hansraj college, and 
@@ -76,7 +76,7 @@ function Events2022_23(){
               only the 1st year students but also the 2nd year students got to know about many new emerging fields to build their career on.
             </p>
         <img
-            src="/images/open_source.jpg"
+            src="/images/open_source.jpg" alt="img"
             className='px-20 mt-4 max-w-full h-auto mx-auto'
         />
             </div>
@@ -87,7 +87,7 @@ function Events2022_23(){
         <h2 className='text-white font-bold text-2xl px-16 m-10'>Infusion'22</h2>
         <div className='flex grid md:grid-cols-2 xl:grid-cols-2'>
         <img
-        src="/images/infusion.jpg"
+        src="/images/infusion.jpg" alt="img"
         className='px-20 mt-4 max-w-full h-auto mx-auto mb-4'
         />
         <p className='text-white'>The purpose of the Freshers' Party is to welcome newcomers in a friendly atmosphere

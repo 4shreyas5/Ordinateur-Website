@@ -6,7 +6,7 @@ function SiteHeader(){
            <div className="flex justify-between flex-wrap">
 
          <div className="-mx-4 -mt-1 w-48 h-48 ">
-            <img src='/images/ordinateur_logo.png' />
+            <img src='/images/ordinateur_logo.png' alt="img" />
         </div> 
 
         <div className="mt-1"> 
@@ -22,7 +22,7 @@ function SiteHeader(){
             </div>
 
             <div className="mt-2 mx-4 ">          
-         <img src='/images/hrc_logo.png' className="h-28 hidden md:block"/>
+         <img src='/images/hrc_logo.png' alt="img" className="h-28 hidden md:block"/>
          </div>
 
          </div>

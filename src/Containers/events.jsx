@@ -4,7 +4,7 @@ import SiteHeader from '../Components/home/SiteHeader'
 import EventCard from '../Components/event/event_card'
 import eventData from '../Components/event/event_data'
 import Footer from '../Components/home/Footer'
-import Events2022_23 from '../Components/event/events2022_23'
+import Events202223 from '../Components/event/events2022_23'
 
 function Events(){
     return(
@@ -14,7 +14,7 @@ function Events(){
         <hr></hr>
         <div className='bg-black'>
         <h2 className='text-center text-3xl font-bold text-white mb-2'><u>Events</u></h2>
-        <Events2022_23/>
+        <Events202223/>
         
         <section className='mt-20'>
            <div className="grid gap-x-10 md:grid-cols-2 xl:grid-cols-4 px-20 ">
