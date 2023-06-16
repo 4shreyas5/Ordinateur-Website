@@ -5,18 +5,18 @@ function SiteHeader(){
         <div className="bg-black w-full h-32 ">
            <div className="flex justify-between flex-wrap">
 
-         <div className="-mx-4 -mt-1 w-48 h-48 ">
+         <div className="-mx-4 -mt-1 w-28 md:w-48 h-24 md:h-48 mt-6 md:mt-0">
             <img src='/images/ordinateur_logo.png' alt="img" />
         </div> 
 
-        <div className="mt-1"> 
-            <h2 className="-ml-2 text-white xl:text-5xl text-3xl md:text-4xl mt-4 md:mt-0 sm:text-4xl">
+        <div className="mt-1 md:-ml-20"> 
+            <h2 className=" text-white text-2xl md:text-5xl mt-4 md:mt-0 sm:text-4xl ml-14 md:ml-9 ">
                 <b>ORDINATEUR</b>
             </h2>
-            <h3 className="text-white xl:text-2xl md:text-xl sm:text-l -ml-9 mr-2 md:mt-2 ">   
+            <h3 className="text-white md:text-2xl sm:text-l mr-2 md:mt-2 ml-2 ">   
             <p>THE COMPUTER SCIENCE SOCIETY</p>
             </h3>
-            <h3 className="text-white xl:text-xl md:text-l ml-14 mt-1/2 ml-2 md:ml-16 sm:block">
+            <h3 className="text-white md:text-xl  mt-1/2 md:ml-28 sm:block ml-16 ">
             <p>HANSRAJ COLLEGE</p>
             </h3>
             </div>
